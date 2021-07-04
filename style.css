@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(187, 228, 238, 0.295);
+}
+
+thead{
+    background-color: rgb(79, 82, 72);
+    color: white;
+    
+    
+}
+tr{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+tbody tr:first-child{
+    background-color: rgb(226, 191, 191);
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+/*tr:nth-child(2n+3){
+    background-color: transparent;
+}*/
+table {
+    border-collapse: collapse;
+    width: 500px;
+    height: 80vh;
+    background-color: cornflowerblue;
+
+}
+.dd{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+}
