@@ -14,7 +14,7 @@ tr{
     text-align: center;
 }
 tbody tr:first-child{
-    background-color: rgb(226, 191, 191);
+    background-color: rgb(139, 79, 79);
 }
 tr:nth-child(even){
     background-color: aquamarine;
